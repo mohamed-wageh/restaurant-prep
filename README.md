@@ -4,9 +4,7 @@ A web application for managing restaurant prep lists based on catering orders.
 
 ## 🚀 Live Demo
 
-Visit the live application: [https://yourusername.github.io/Restaurant-Prep-Manager/](https://yourusername.github.io/Restaurant-Prep-Manager/)
-
-*(Replace `yourusername` with your GitHub username)*
+Visit the live application: [https://mohamed-wageh.github.io/restaurant-prep/](https://mohamed-wageh.github.io/restaurant-prep/)
 
 ## 📦 Setup
 
@@ -34,11 +32,8 @@ npm run dev
    - Navigate to **Settings** → **Pages**
    - Under **Source**, select **GitHub Actions**
 
-2. **Update Repository Name:**
-   - If your repository name is different from `Restaurant-Prep-Manager`, update the `base` path in `vite.config.js`:
-   ```js
-   base: process.env.GITHUB_PAGES === 'true' ? '/your-repo-name/' : '/',
-   ```
+2. **Repository Name:**
+   - The repository name is `restaurant-prep` and is already configured in `vite.config.js`
 
 3. **Push to Main Branch:**
    - The GitHub Actions workflow will automatically build and deploy your site
